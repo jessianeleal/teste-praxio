@@ -1,0 +1,9 @@
+.button__login {
+    width: 371px;
+    height: 60px;
+    border-radius: 36px 36px 36px 36px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #7626FF;
+}

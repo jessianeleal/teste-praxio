@@ -1,0 +1,19 @@
+.form__login {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__login-input {
+    width: 371px;
+    height: 42px;
+    border-radius: 6px 6px 6px 6px;
+    border: 1px solid #C2C2C2;
+    margin-bottom: 10px;
+}
+
+.form__login-input::placeholder {
+  color: #CAD0DC;
+  font-size: 14px;
+  font-family: "Mukta";
+  padding-left: 26.45px;
+}
