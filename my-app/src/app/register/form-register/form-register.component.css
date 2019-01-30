@@ -1,0 +1,21 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.info1 {
+    margin-right: 20px;
+}
+
+.info2 {
+    margin-left: 20px;
+}
+
+p {
+    font-size: 16px;
+    font-family: "Mukta";
+    font-weight: bold;
+    color: #585859;
+    margin-bottom: 0;
+}

@@ -1,0 +1,32 @@
+.form__register {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__register-number3 {
+    width: 99px;
+    height: 42px;
+    border: 1px solid #C2C2C2;
+    border-radius: 6px 6px 6px 6px;
+    margin-right: 10px;
+}
+
+.form__register-number3::placeholder, .form__register-text::placeholder {
+    font-family: "Mukta";
+    font-size: 14px;
+    color: #CAD0DC;
+    padding: 24.53px;
+}
+
+.form__register-text {
+    width: 254.92px;
+    height: 42px;
+    border: 1px solid #C2C2C2;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.data {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+

@@ -1,0 +1,38 @@
+.form__register {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__register input{
+    margin: 5px 0;
+    margin-right: 8px;
+}
+
+.form__register-text {
+    width: 361.92px;
+    height: 42px;
+    border: 1px solid #C2C2C2;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.form__register-number {
+    width: 185.52px;
+    height: 42px;
+    border: 1px solid #C2C2C2;
+    border-radius: 6px 6px 6px 6px;
+    margin-right: 8px;
+}
+
+.form__register-number2 {
+    width: 166px;
+    height: 42px;
+    border: 1px solid #C2C2C2;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.form__register-text::placeholder, .form__register-number::placeholder, .form__register-number2::placeholder {
+    font-family: "Mukta";
+    font-size: 14px;
+    color: #CAD0DC;
+    padding: 24.53px;
+}
