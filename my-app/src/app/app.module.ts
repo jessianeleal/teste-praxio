@@ -14,6 +14,9 @@ import { FormRegisterAddressComponent } from './register/form-register/form-regi
 import { ButtonRegisterComponent } from './register/button-register/button-register.component';
 import { NavHomeComponent } from './home/nav-home/nav-home.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeaderHomeComponent } from './home/header-home/header-home.component';
+import { CardsHomeComponent } from './home/cards-home/cards-home.component';
+import { FooterHomeComponent } from './home/footer-home/footer-home.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +33,9 @@ import { FooterComponent } from './footer/footer.component';
     ButtonRegisterComponent,
     NavHomeComponent,
     FooterComponent,
+    HeaderHomeComponent,
+    CardsHomeComponent,
+    FooterHomeComponent
   ],
   imports: [
     BrowserModule
