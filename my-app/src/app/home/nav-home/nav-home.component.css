@@ -19,6 +19,10 @@
     background-color: #FFFFFF;
 }
 
+.btn__logout:hover {
+    cursor: pointer;
+}
+
 .btn {
     margin-left: 1100px;
 }

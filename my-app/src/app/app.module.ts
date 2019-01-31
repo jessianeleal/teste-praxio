@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
-import { FormLoginComponent } from './form-login/form-login.component';
+import { FormLoginComponent } from './login/form-login/form-login.component';
 import { ContainerComponent } from './container/container.component';
 import { ButtonLoginComponent } from './button-login/button-login.component';
 import { HomeComponent } from './home/home.component';
@@ -17,6 +17,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderHomeComponent } from './home/header-home/header-home.component';
 import { CardsHomeComponent } from './home/cards-home/cards-home.component';
 import { FooterHomeComponent } from './home/footer-home/footer-home.component';
+import { LoginComponent } from './login/login.component';
+
+import { routing } from "./app.routes";
 
 @NgModule({
   declarations: [
@@ -35,10 +38,12 @@ import { FooterHomeComponent } from './home/footer-home/footer-home.component';
     FooterComponent,
     HeaderHomeComponent,
     CardsHomeComponent,
-    FooterHomeComponent
+    FooterHomeComponent,
+    LoginComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]

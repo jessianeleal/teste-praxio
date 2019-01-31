@@ -29,5 +29,8 @@ li {
     height: 320px;
     background-repeat: no-repeat;
     object-fit: contain;
-    /* background-position: left; */
+}
+
+a {
+    text-decoration: none;
 }
